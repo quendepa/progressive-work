@@ -1,0 +1,187 @@
+
+html {
+  height: 100%;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #f0f0ee;
+
+}
+
+body {
+ overflow-x: hidden;
+}
+
+.cadre{
+    width:39vh;
+    border-radius: 5% 5% 5% 5% / 5% 5% 5% 5%;
+    margin-left: -35vh;
+    color:white;
+    background-color: #262626;
+}
+.animation-description{
+  margin-top: -150px;
+  width:150vh;
+}
+
+.description{
+  
+  width:130vh;
+  height: 14vh;
+  color:white;
+  text-align: center;
+  background-color: #262626 ;
+  border-radius: 3% 3% 3% 3% ;
+  
+}
+
+
+.id{
+  border-radius: 3pc;
+  max-width: 50vh;
+  margin-left: -40vh;
+}
+
+.img{
+  max-width: 150px;
+}
+
+
+
+#pinContainer {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+section, footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.panel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+.spacer {
+ 
+  height: 100vh;
+  background-color: #42a6e0;
+}
+
+
+.turqoise {
+  background-color: #38ced7;
+}
+.black {
+
+  background-color: #222121;
+  padding-bottom: -5%;
+}
+
+p
+{
+    color:black;
+    width: 40vh;
+    margin:2vh;
+    padding: 4vh;
+    padding-top:2vh;
+    border: 3px solid #38ced7; 
+}
+
+.repo{
+  margin-top: 2vh;
+  text-align: center;
+  color:white;
+}
+
+#api{
+  margin-top: 5vh;
+  display:flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: space-between;
+
+}
+#tv {
+    
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    width: 800px;
+    height: 680px;
+    background: #151616;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+    -webkit-box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
+            box-shadow: 20px 20px rgba(0, 0, 0, 0.15);
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    opacity: 90%;
+    
+  }
+  
+  #tv:hover {
+    border-radius: 5% 5% 5% 5% / 5% 5% 5% 5%;
+    -webkit-box-shadow: 20px 20x rgba(0, 0, 0, 0.25);
+            box-shadow: 20px 20x rgba(0, 0, 0, 0.25);
+  }
+
+  .well{
+    padding-top: 17vh; 
+    line-height: 9vh;
+  }
+
+.titre-form{
+    
+    text-align: center;
+    color:white;
+  }
+
+  .form{
+   justify-content:center;
+    
+  }
+  
+  .send{
+    text-align: center;
+
+  }
+
+  .gmail{
+    width: 80px;
+    margin-left: 85vh;
+    text-align: center;
+    padding: 2vh;
+
+  }
+
+  .linkedin{
+    
+    width: 80px;
+    text-align: center;
+    padding: 2vh;
+
+  }
+
+  .github{
+    width: 80px;
+    text-align: center;
+
+  }
+
+  footer {
+    height: 100px;
+    background-color:#222121;
+  
+  }
+  
+
+  
+
